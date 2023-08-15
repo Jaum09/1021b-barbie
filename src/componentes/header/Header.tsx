@@ -7,7 +7,7 @@ function Header(){
             </div>
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Página Inicial</a></li>
                     <li><a href="#">Sobre</a></li>
                     <li><a href="#">Notícia</a></li>
                     <li><a href="#">Contato</a></li>
@@ -16,4 +16,5 @@ function Header(){
         </header>
     )
 }
+
 export default Header
