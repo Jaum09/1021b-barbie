@@ -1,0 +1,78 @@
+footer {
+    width: 100vw;
+    height: 10vh;
+    background-color: #483D8B;
+}
+
+.conteudo {
+    background-color: #6b36b5ff;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+}
+  
+.contatos p {
+    text-align: center;
+    padding: 13px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.logo {
+    
+    width: 200px;
+    height: 200px;
+}
+
+.footer-link {
+    text-decoration: none;
+    font-size: 20px;
+}
+  
+.lista h3 {
+    font-size: 30px;
+}
+  
+ul {
+    list-style: none;
+}
+  
+ul a {
+    color: white;
+    margin-top: 30px;
+}
+  
+ul a:hover {
+    color: #ff00f7ff;
+}
+  
+.copyright {
+    display: flex;
+    width: 100%;
+    background-color: purple;
+    justify-content: center;
+    font-size: 20px;
+    margin: 0;
+}
+  
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+  
+.contatos a {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+  
+.redes-sociais img {
+    height: 30px;
+    width: 30px;
+    padding: 0;
+    margin-left: 10px;
+    margin-left: 10px;
+}
