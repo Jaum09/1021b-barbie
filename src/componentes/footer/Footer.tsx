@@ -36,21 +36,20 @@ function Footer(){
         <ul className='lista'>
           <li><h3>Informações</h3></li>
           <li><a href="#" className='footer-link'>App</a></li>
+          <li><a href="#" className='footer-link'>Criador</a></li>
           <li><a href="#" className='footer-link'>Afiliados</a></li>
-          <li><a href="#" className='footer-link'>Criador(a)</a></li>
           <li><a href="#" className='footer-link'>País de origem</a></li>
           <li><a href="#" className='footer-link'>Data de lançamento</a></li>
-          <li><a href="#" className='footer-link'>Bonecas</a></li>
         </ul>
 
         <ul className='lista'>
           <li><h3>Empresa</h3></li>
           <li><a href="#" className='footer-link'>Carreiras</a></li>
-          <li><a href="#" className='footer-link'>Programas de parceiros</a></li>
-          <li><a href="#" className='footer-link'>Encontre um parceiro</a></li>
           <li><a href="#" className='footer-link'>Contate-nos</a></li>
           <li><a href="#" className='footer-link'>Para investidores</a></li>
+          <li><a href="#" className='footer-link'>Encontre um parceiro</a></li>
           <li><a href="#" className='footer-link'>Serviços Profissionais</a></li>
+          <li><a href="#" className='footer-link'>Programas de parceiros</a></li>
           </ul>
       </div>
       
