@@ -1,7 +1,7 @@
 import './Header.css'
 function Header(){
     let texto = "Jao"
-    function mudaText(){
+    function muda_txt(){
         texto = "Jao"
     }
     return(
