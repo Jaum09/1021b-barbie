@@ -1,11 +1,18 @@
 .filme_content {
-    width: 300px;
+    /*width: 300px;*/
     padding: 50px;
-    box-shadow: 0px 0px 4px 0px #770077;
+    box-shadow: 0px 0px 4px 0px #000000ad;
     border-radius: 10px;
+    overflow: hidden;
 }
 
-.filme_content > img {
+.foto_filme {
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.foto_filme > img {
     width: 100%;
 }
 
