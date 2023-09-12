@@ -23,6 +23,12 @@ export default function Main(){
             titulo:"Interestelar",
             sinopse:"As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos. Ao lado de Brand, Jenkins e Doyle, ele seguirá em busca de um novo lar.",
             imagem:"/Interestelar.png"
+        },
+        {
+            id:3,
+            titulo:"O Exorcista do Papa",
+            sinopse:"O padre Gabriele Amorth, exorcista do Vaticano, luta contra Satanás e demônios possuidores de inocentes. Um retrato detalhado de um padre que realizou mais de 100 mil exorcismos em sua vida. Gabriele Amorth (Crowe) é um padre italiano responsável por investigar casos de possessão. Seu trabalho é diretamente organizado pelo Papa (Nero), que conta com a ajuda de Amorth para a resolução de casos inexplicáveis.",
+            imagem:"/OExorcistaDoPapa.png"
         }
         
     ]
@@ -55,11 +61,11 @@ export default function Main(){
                 possibilitando a continuação da espécie. Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode 
                 nunca mais ver os filhos. Ao lado de Brand, Jenkins e Doyle, ele seguirá em busca de um novo lar."
                 imagem="/Interestelar.png"/>
-                <Filme titulo="Interestelar" sinopse="As reservas naturais da Terra estão chegando ao 
-                fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, 
-                possibilitando a continuação da espécie. Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode 
-                nunca mais ver os filhos. Ao lado de Brand, Jenkins e Doyle, ele seguirá em busca de um novo lar."
-                imagem="/Interestelar.png"/>
+                <Filme titulo="O Exorcista do Papa" sinopse="O padre Gabriele Amorth, exorcista do Vaticano, luta contra 
+                Satanás e demônios possuidores de inocentes. Um retrato detalhado de um padre que realizou mais de 100 mil exorcismos em sua vida.
+                Gabriele Amorth (Crowe) é um padre italiano responsável por investigar casos de possessão. Seu trabalho é diretamente organizado pelo 
+                Papa (Nero), que conta com a ajuda de Amorth para a resolução de casos inexplicáveis."
+                imagem="/OExorcistaDoPapa.png"/>
                 <Filme titulo="Interestelar" sinopse="As reservas naturais da Terra estão chegando ao 
                 fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, 
                 possibilitando a continuação da espécie. Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode 
