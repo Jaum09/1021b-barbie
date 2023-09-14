@@ -54,12 +54,12 @@ export default function Main(){
                 <p>Buscar Filme</p>
                 <input type='text' 
                         className='barrapesquisa' 
-                        onChange={mudaTexto}/>
+                        onChange={mudaTexto}
+                    />
                 {texto && <p>Resultados Para: {texto}</p>}
-
                 </div>
-            <main className="content-main">
 
+            <main className="content-main">
                 {filmes.filter((filme)=>filme.titulo.toLowerCase().includes(texto.toLowerCase())).map((filme:FilmesType)=>
                     <Filme  key={filme.id}
                             titulo={filme.titulo} 
