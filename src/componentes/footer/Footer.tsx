@@ -2,7 +2,6 @@ import '../footer/Footer.css'
 import img1 from "../../assets/instagram.png"
 import img2 from "../../assets/twitter.png"
 import img3 from "../../assets/youtube.png"
-import logo from '../../assets/logo.png'
 
 function Footer(){
     return(
@@ -10,7 +9,6 @@ function Footer(){
             <footer>
       <div className='conteudo'>
         <div className='contatos'>
-          <a href='#' className='logo'><img src={logo} alt="logo"/></a>
           
         <p>A Barbie se tornou um ícone cultural e recebeu honras raras no mundo dos brinquedos. Entre em nossas redes sociais para saber mais.</p>
           
