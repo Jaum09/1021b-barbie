@@ -9,7 +9,7 @@ header{
 header nav ul li a {
     text-decoration: none;
     padding: 15px;
-    border: 1px solid hotpink;
+    border: 1px solid rgb(255, 0, 0);
     color: white;
 }
 

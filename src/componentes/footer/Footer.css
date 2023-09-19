@@ -43,7 +43,7 @@ ul a {
 }
   
 ul a:hover {
-    color: #ff00f7ff;
+    color: rgb(255, 0, 0);
 }
   
 .copyright {
