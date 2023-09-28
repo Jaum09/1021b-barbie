@@ -1,5 +1,8 @@
 import React from 'react'
-import App from './App.tsx'
+import './main.css'
+import Header from './componentes/header/Header.tsx'
+import Main from './componentes/main/Main.tsx'
+import Footer from './componentes/footer/Footer.tsx'
 import * as ReactDOM from "react-dom/client";
 import {
   createBrowserRouter,
@@ -8,7 +11,39 @@ import {
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App/>,
+    element: 
+    <>
+    <Header/>
+    <Main/>
+    <Footer/>
+    </>,
+  },
+  {
+    path: "/noticia",
+    element: 
+    <>
+    <Header/>
+    <div className='content-main'>Notícias do Jão</div>
+    <Footer/>
+    </>,
+  },
+  {
+    path: "/Sobre",
+    element: 
+    <>
+    <Header/>
+    <div  className='content-main'>Sobre o Jão</div>
+    <Footer/>
+    </>,
+  },
+  {
+    path: "/contato",
+    element: 
+    <>
+    <Header/>
+    <div className='content-main'>Contato do Jão</div>
+    <Footer/>
+    </>,
   },
 ]);
 

@@ -19,3 +19,7 @@ header nav ul{
     gap: 15px;
     align-items: center;
 }
+
+.logo {
+    width: 200px;
+}

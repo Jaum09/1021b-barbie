@@ -57,7 +57,7 @@ export default function Main(){
                         onChange={mudaTexto}
                     />
                 {texto && <p>Resultados Para: {texto}</p>}
-                </div>
+            </div>
 
             <main className="content-main">
                 {filmes.filter((filme)=>filme.titulo.toLowerCase().includes(texto.toLowerCase())).map((filme:FilmesType)=>
