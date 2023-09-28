@@ -1,9 +1,10 @@
 import './Header.css'
+import logo from '../../../public/logo.png'
 function Header(){
     return(
         <header>
             <div>
-                logo
+                <img src={logo} className='logo'></img>
             </div>
             <nav>
                 <ul>
