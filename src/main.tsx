@@ -23,7 +23,7 @@ const router = createBrowserRouter([
     element: 
     <>
     <Header/>
-    <div className='content-main'>Notícias do Jão</div>
+    <div className='content-main'>Notícias sobre o mano d'chavas</div>
     <Footer/>
     </>,
   },
@@ -32,7 +32,7 @@ const router = createBrowserRouter([
     element: 
     <>
     <Header/>
-    <div  className='content-main'>Sobre o Jão</div>
+    <div  className='content-main'>Sobre o mano d'chavas</div>
     <Footer/>
     </>,
   },
@@ -41,7 +41,7 @@ const router = createBrowserRouter([
     element: 
     <>
     <Header/>
-    <div className='content-main'>Contato do Jão</div>
+    <div className='content-main'>Contato pra falar com o mano d'chavas</div>
     <Footer/>
     </>,
   },
