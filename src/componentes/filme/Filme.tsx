@@ -1,7 +1,7 @@
 import './Filme.css'
 type FilmeProps={
     titulo:string,
-    sinopse:string,
+    descricao:string,
     imagem:string
 }
 
@@ -12,7 +12,7 @@ function Filme(props:FilmeProps){
                 <img src={props.imagem}></img>
             </div>
                 <h1>{props.titulo}</h1>
-                <p className="sinopse">{props.sinopse}</p>
+                <p className="descricao">{props.descricao}</p>
         </div>
     )
 }
