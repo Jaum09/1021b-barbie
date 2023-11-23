@@ -14,20 +14,13 @@ const URL_API = "http://localhost:3000/filmes";
 export default function Main() {
     const [texto,setTexto] = useState("")
     const [filmes,setFilmes] = useState<FilmesType[]>([])
-
     useEffect(() => {
         const buscarFilmes = async()=> {
-            try {
                 const resposta = await axios.get<FilmesType[]>(URL_API)
                 setFilmes(resposta.data)
-                } catch (error) {
-                    console.log('Erro ao buscar filmes')
-                }
             };
             buscarFilmes();
         }, []);
-    
-
 
     function mudaTexto(e:React.ChangeEvent<HTMLInputElement>){
         //console.log(e.target.value)
