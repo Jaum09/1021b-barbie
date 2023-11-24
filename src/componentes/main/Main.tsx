@@ -16,7 +16,7 @@ export default function Main() {
     const [filmes,setFilmes] = useState<FilmesType[]>([])
     useEffect(() => {
         const buscarFilmes = async()=> {
-                const resposta = await axios.get<FilmesType[]>(URL_API)
+                const resposta = await axios.get<FilmesType[]> (URL_API)
                 setFilmes(resposta.data)
             };
             buscarFilmes();
